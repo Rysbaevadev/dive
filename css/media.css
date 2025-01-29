@@ -1,0 +1,196 @@
+@media (max-width: 1107px) {
+	.main img {
+		max-width: 430px;
+		max-height: 390px;
+	}
+	h2 {
+		font-size: 17px;
+	}
+}
+@media (max-width: 1017px) {
+	nav {
+		gap: 30px;
+	}
+	button {
+		padding: 10px 10px;
+	}
+	.container {
+		padding-inline: 40px;
+	}
+	.hydra-img {
+		img {
+			max-width: 120px;
+		}
+	}
+}
+
+@media (max-width: 980px) {
+	.buttons {
+		gap: 20px;
+	}
+	.main img {
+		max-width: 410px;
+		max-height: 380px;
+	}
+}
+
+@media (max-width: 940px) {
+	.container {
+		padding-inline: 20px;
+	}
+}
+@media (max-width: 817px) {
+	.header-title img {
+		max-width: 40px;
+		max-height: 40px;
+	}
+	.main img {
+		max-width: 400px;
+		max-height: 360px;
+	}
+	.buttons {
+		font-size: 9px;
+	}
+
+	.blok-text {
+		h1 {
+			font-size: 14px;
+		}
+		p {
+			font-size: 12px;
+		}
+	}
+}
+@media (max-width: 760px) {
+	nav {
+		display: none;
+	}
+	.buttons {
+		display: none;
+	}
+	.main img {
+		max-width: 390px;
+		max-height: 360px;
+	}
+	.burger-menu {
+		display: block;
+	}
+}
+@media (max-width: 760px) {
+	.main img {
+		max-width: 370px;
+		max-height: 340px;
+	}
+	.blok-text {
+		h1 {
+			font-size: 11px;
+		}
+		p {
+			font-size: 11px;
+		}
+	}
+}
+
+@media (max-width: 735px) {
+	.visit {
+		.blok2 {
+			display: none;
+		}
+	}
+
+	.visit {
+		.blok {
+			display: flex;
+			justify-content: center;
+			text-align: center;
+			width: 100%;
+			h1 {
+				font-size: 20px;
+			}
+			p {
+				font-size: 18px;
+			}
+		}
+	}
+}
+@media (max-width: 650px) {
+	.main img {
+		max-width: 320px;
+		max-height: 300px;
+	}
+}
+
+@media (max-width: 650px) {
+	.main {
+		flex-direction: column-reverse;
+		align-items: center;
+		max-width: 470px;
+		width: 100%;
+	}
+	.main-text {
+		align-items: center;
+		p {
+			display: none;
+		}
+	}
+
+	.main-but ion-icon {
+		display: none;
+	}
+	.main-but button {
+		max-width: 459px;
+		width: 100%;
+		font-size: 16px;
+	}
+	.main img {
+		max-width: 370px;
+		max-height: 340px;
+	}
+}
+@media (max-width: 540px) {
+	.hydra {
+		p {
+			display: none;
+		}
+		.hydra-img {
+			img {
+				display: none;
+			}
+		}
+		h1,
+		h2 {
+			display: flex;
+			justify-content: center;
+			width: 100%;
+		}
+	}
+}
+@media (max-width: 490px) {
+	.visit {
+		.blok {
+			h1 {
+				font-size: 17px;
+			}
+			p {
+				font-size: 15px;
+			}
+		}
+	}
+}
+@media (max-width: 450px) {
+	.main img {
+		max-width: 320px;
+		max-height: 300px;
+	}
+}
+.main-but {
+	button {
+		font-size: 14px;
+	}
+}
+@media (max-width: 360px) {
+	.main img {
+		max-width: 280px;
+		max-height: 260px;
+	}
+}
